@@ -1,0 +1,43 @@
+body{
+  margin:0;
+  font-family:sans-serif;
+  background:#f1f5f9;
+}
+
+.dark{
+  background:#0f172a;
+  color:white;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  padding:15px;
+  background:#2563eb;
+  color:white;
+}
+
+.container{
+  width:95%;
+  max-width:700px;
+  margin:auto;
+}
+
+input,textarea,button{
+  width:100%;
+  margin-top:10px;
+  padding:12px;
+  border-radius:10px;
+}
+
+.post{
+  background:white;
+  padding:15px;
+  border-radius:15px;
+  margin-top:20px;
+}
+
+.post img{
+  width:100%;
+  border-radius:10px;
+  }
